@@ -12,6 +12,8 @@ class Websearch():
         q = "https://www.google.com/search?q=" + newS + '&'
         wb.open_new(q)
 
+    def OpenMail():
+        wb.open_new("https://mail.google.com/mail/u/1/#inbox")
    
 
 
